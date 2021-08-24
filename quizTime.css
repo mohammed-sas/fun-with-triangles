@@ -1,0 +1,12 @@
+/* question container */
+.question-container{
+    margin:2rem 0rem;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+/* footer position */
+
+.footer-pos{
+    position: relative;
+}

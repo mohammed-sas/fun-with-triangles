@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
+:root {
+    --primary-color: #34D399;
+    --max-width: 900px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    text-align: center;
+    /* max-width: var(--max-width); */
+    margin: auto;
+    font-family: 'Teko', sans-serif;
+}
+
+/* navigation */
+header {
+    background-color: var(--primary-color);
+    height: 80px;
+    color: white;
+}
+
+header h1 {
+    text-align: left;
+    padding-left: 0.5rem;
+    font-family: 'Lobster', cursive;
+}
+
+.navigation {
+    
+    text-align: right;
+    padding: 0rem 0.5rem;
+    font-size:x-large;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.links {
+    padding: 0rem 0.5rem;
+
+}
+
+.links-active{
+    font-weight: bold;
+}
+
+/* label */
+.label-style{
+    color:var(--primary-color);
+    font-size: 2rem;
+
+
+}
+
+label{
+    padding:0rem 1rem;
+}
+
+
+/* input */
+.side-input{
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    height: 30px;
+    width: 20%;
+}
+/* button */
+.submit-button{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: large;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+/* output */
+.output-div{
+    font-size: xx-large;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+/* color */
+.primary{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+/* footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+footer a{
+    padding : 0rem 0.5rem;
+}
+footer p{
+    margin: 0.5rem;
+}
